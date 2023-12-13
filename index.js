@@ -27,3 +27,6 @@ function getWeather() {
                                       <p>Description: ${description}</p>`;
       }
     }
+
+
+    

@@ -11,12 +11,13 @@ body {
 .weather-container {
     margin-top: 50px;
     margin-bottom: 50px;
+    text-shadow: #000000;
   }
 
 
     .header {
-      background-color: #333;
-      color: #fff;
+   
+      color: #000000;
       padding: 10px;
     }
 
@@ -36,4 +37,10 @@ body {
         width: 100%;
         color: white;
         text-align: center;
+      }
+      .box{
+        display: center;
+        padding: 150px;
+        padding-bottom: 50px;
+        margin: 10px;
       }
