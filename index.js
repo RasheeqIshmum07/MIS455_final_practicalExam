@@ -17,7 +17,7 @@ function getWeather() {
     function displayWeather(data) {
       const weatherContainer = document.getElementById('weather-container');
 
-      if (data.cod === '404') {
+      if (data.cod === 'error 404') {
         weatherContainer.innerHTML = 'City not found';
       } else {
         const temperature = Math.round(data.main.temp - 273.15); // Convert from Kelvin to Celsius

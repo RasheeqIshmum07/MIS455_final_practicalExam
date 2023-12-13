@@ -1,13 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     
     text-align: center;
     background-image: url("weather.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover ;
 
   }
 
 .weather-container {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
 
@@ -18,7 +21,7 @@ body {
     }
 
     .footer {
-      background-color: #333;
+   
       color: #fff;
       padding: 10px;
       position: fixed;
@@ -26,3 +29,11 @@ body {
       width: 100%;
     }
 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
