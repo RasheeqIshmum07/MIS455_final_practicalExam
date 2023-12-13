@@ -1,46 +1,47 @@
 body {
     font-family: Arial;
-    
+
     text-align: center;
     background-image: url("weather.jpeg");
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
 
-  }
+}
 
 .weather-container {
     margin-top: 50px;
     margin-bottom: 50px;
     text-shadow: #000000;
-  }
+}
 
 
-    .header {
-   
-      color: #000000;
-      padding: 10px;
-    }
+.header {
 
-    .footer {
-   
-      color: #fff;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
+    color: #000000;
+    padding: 10px;
+}
 
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
-      }
-      .box{
-        display: center;
-        padding: 150px;
-        padding-bottom: 50px;
-        margin: 10px;
-      }
+.footer {
+
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    display: center;
+    padding: 150px;
+    padding-bottom: 50px;
+    margin: 10px;
+}
